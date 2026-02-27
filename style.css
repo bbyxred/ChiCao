@@ -1,17 +1,45 @@
-h1 { 
-color: red
-  top-margin: 25pt
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
-.tuade { 
-  color: tomato;
-  font-family: Arial;
-  top-margin:20pt;
-  font-size: 20pt;
-  font-weight: bold;
+.header{
+    flex: 15%;
+    background-color: lightgray; 
 }
-.noidung {
-  color: black;
-  top-margin: 6pt;
-  font-size: 15pt;
-  font-weight: bold;
+.menu{
+    flex: 5%;
+    background-color: darkgray;
+}
+.content{
+    flex: 70%;
+    background-color: white;
+}
+.content iframe{
+    flex: 1;
+    border: none;
+}
+.footer{
+    flex: 10%;
+    background-color: lightgray;
+}
 
+
+h1 { 
+ color:red; 
+ top-margin: 25pt; 
+} 
+.tuade { 
+  color: tomato; 
+  font-family: Arial; 
+  top-margin: 20pt; 
+  font-size: 20pt; 
+  font-weight: bold; 
+} 
+.noidung { 
+  color: black; 
+  top-margin: 6pt; 
+  font-size: 15pt; 
+  text-transform: lowercase;
+  font-style: normal;
+}
