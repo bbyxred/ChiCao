@@ -5,23 +5,29 @@
 }
 .header{
     flex: 15%;
-    background-color: lightgray; 
+    background: url("images/banner.png") center / 160%;
+    aspect-ratio: 6 /1
 }
 .menu{
     flex: 5%;
     background-color: darkgray;
+    color:white;
+    display:flex;
 }
 .content{
-    flex: 70%;
-    background-color: white;
-}
+    flex: 5%;
+    background-color: darkred;
+    color: white;
+    display: flex;}
+.menu a{
+    padding:15px; 
 .content iframe{
     flex: 1;
     border: none;
 }
 .footer{
     flex: 10%;
-    background-color: lightgray;
+    background-color: lightred;
 }
 
 
