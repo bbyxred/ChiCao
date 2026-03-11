@@ -1,53 +1,57 @@
 .container{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display:flex;
+  flex-direction: column;
+  height:100vh;
 }
 .header{
-    flex: 15%;
-    background: url("images/banner.png") center / 100%;
-    aspect-ratio: 6 /1;
+  flex:20%;
+  aspect-ratio: 6/1;
+  background-color: Brown;
+  background: url("images/money.jpg") center;
 }
 .menu{
-    flex: 5%;
-    background-color: darkgray;
-    color:white;
-    display:flex;
+  flex:5%;
+  background-color: #FFEE8C;
+  display: flex;
+  align-items: center;
+  color: black
+}
+.menu a{
+  padding: 15px 20px;
+  color: Green;
+}
+.menu a:hover{
+  background-color: Black;
+  color: white;
 }
 .content{
-    flex: 5%;
-    background-color: darkred;
-    color: white;
-    display: flex;}
-.menu a{
-    padding:15px; 
+  flex:70%;
+  background-color: White;
+}
 .content iframe{
-    flex: 1;
-    border: none;
-    width: 100%;
-    height: 100%;
+  flex:1;
+  border: none;
+  width: 100%;
+  height:100%;
 }
 .footer{
-    flex: 10%;
-    background-color: lightred;
+  flex:5%;
+  background-color: Brown;
 }
-
-
-h1 { 
- color:red; 
- top-margin: 25pt; 
-} 
-.tuade { 
-  color: tomato; 
-  font-family: Arial; 
-  top-margin: 20pt; 
-  font-size: 20pt; 
-  font-weight: bold; 
-} 
-.noidung { 
-  color: black; 
-  top-margin: 6pt; 
-  font-size: 15pt; 
-  text-transform: lowercase;
-  font-style: normal;
+h1 {
+  color: Red;
+  top-margin: 25pt;
+}
+.tuade {
+  color: Red;
+  font-family: Arial;
+  top-margin: 20pt;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.noidung {
+  color: black;
+  top-margin: 6pt;
+  font-size: 15pt;
+  font-weight: bold;
 }
