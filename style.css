@@ -6,19 +6,19 @@
 .header{
   flex:20%;
   aspect-ratio: 6/1;
-  background-color: Firebrick3;
-  background: url("images/kiss.jfif") center;
+  background-color:#090040;
+  background: url("images/banner.jpg") center;
 }
 .menu{
   flex:5%;
-  background-color: LightSalmon1;
+  background-color:#B5A8D5;
   display: flex;
   align-items: center;
-  color: black
+  color: black;
 }
 .menu a{
   padding: 15px 20px;
-  color: Firebrick;
+  color:#090040;
 }
 .menu a:hover{
   background-color: Brown;
@@ -26,7 +26,7 @@
 }
 .content{
   flex:70%;
-  background-color: PapayaWhip;
+  background-color: #94B4C1;
 }
 .content iframe{
   flex:1;
@@ -36,7 +36,7 @@
 }
 .footer{
   flex:5%;
-  background-color: Firebrick;
+  background-color:#090040;
 }
 h1 {
   color: blue;
