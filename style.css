@@ -6,7 +6,7 @@
 .header{
   flex:20%;
   aspect-ratio: 6/1;
-  background-color:#090040;
+  background-color:#450693;
   background: url("images/banner.jpg") center;
 }
 .menu{
@@ -26,7 +26,7 @@
 }
 .content{
   flex:70%;
-  background-color: #94B4C1;
+  background-color: #B7A3E3;
 }
 .content iframe{
   flex:1;
@@ -36,7 +36,7 @@
 }
 .footer{
   flex:5%;
-  background-color:#090040;
+  background-color:#450693;
 }
 h1 {
   color: blue;
